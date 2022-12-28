@@ -147,6 +147,9 @@ header {
   background: url(./Image/hero-bg-img.svg);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+  padding: 45px 0 0 0;
+  min-height: 650.55px;
 }
 .hero-text h1 {
   font-family: "Fredoka One";
@@ -155,6 +158,7 @@ header {
   font-size: 25px;
   line-height: 40px;
   color: #060b11;
+  /* padding-top: 41px; */
 }
 .hero-text h1 .colors {
   background: linear-gradient(97.34deg, #fabc45 0%, #f09e00 102.87%);
@@ -196,7 +200,7 @@ header {
 }
 
 .left-icon {
-  margin-top: 54px;
+  margin-top: 51px;
   cursor: pointer;
 }
 @media (min-width: 768px) {
@@ -226,9 +230,12 @@ header {
     cursor: pointer;
   }
 }
+.values {
+  padding-bottom: 30px;
+}
 
 .values-text {
-  padding: 46px 0;
+  /* padding: 46px 0; */
   text-align: center;
 }
 .values-text h2 {
@@ -252,6 +259,7 @@ header {
 }
 .main-card {
   flex-direction: column;
+  padding-top: 20px;
 }
 .card-1 {
   background-color: #fff;
@@ -293,6 +301,15 @@ header {
   text-align: center;
   margin-top: 20px;
 }
+.card-3 h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #01162e;
+}
 .card-3 img {
   margin-top: -22px;
 }
@@ -300,6 +317,7 @@ header {
 @media (min-width: 992px) {
   .main-card {
     flex-direction: row;
+    padding-top: 0;
   }
   .card-2 {
     background-color: #fff;
@@ -334,7 +352,7 @@ header {
     font-size: 30px;
     line-height: 40px;
     color: #01162e;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
   }
   .values-text p {
     font-family: "Poppins";
@@ -344,7 +362,7 @@ header {
     line-height: 30px;
     text-align: center;
     color: #606060;
-    margin: auto;
+    margin: 40px auto;
   }
 }
 .features {
@@ -362,9 +380,9 @@ header {
   gap: 5px;
   flex-direction: column;
 }
-.features {
+/* .features {
   padding: 76px 0;
-}
+} */
 .features-header h3 {
   font-family: "Fredoka One";
   font-style: normal;
@@ -376,14 +394,14 @@ header {
   margin: 30px 0;
 }
 
-.launchpad {
+.featute-card {
   padding: 33px 15px;
   background: #ffffff;
   box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.08);
   max-width: 370px;
   /* margin-top: -85px; */
 }
-.launchpad h2 {
+.featute-card h2 {
   padding: 20px 0 22px 0;
   font-family: "Poppins";
   font-style: normal;
@@ -392,59 +410,7 @@ header {
   line-height: 30px;
   color: #01162e;
 }
-.launchpad p {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 22px;
-  color: #59637b;
-  text-align: start;
-}
-
-.kernelswap {
-  padding: 33px 15px;
-  background: #ffffff;
-  box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.08);
-  margin-top: 10px;
-  max-width: 370px;
-}
-.kernelswap h2 {
-  padding: 20px 0 22px 0;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 30px;
-  color: #01162e;
-}
-.kernelswap p {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 22px;
-  color: #59637b;
-  text-align: start;
-}
-
-.the-tultiple {
-  padding: 33px 15px;
-  background: #ffffff;
-  box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.08);
-  margin-top: 10px;
-  max-width: 370px;
-}
-.the-tultiple h2 {
-  padding: 20px 0 22px 0;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 30px;
-  color: #01162e;
-}
-.the-tultiple p {
+.featute-card p {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -456,28 +422,19 @@ header {
 
 @media (min-width: 992px) {
   .three-features {
-    gap: 5px;
+    gap: 30px;
     flex-direction: row;
+    min-height: 613px;
   }
-  .launchpad {
+  .featute-card {
     padding: 33px 15px;
     background-color: #fff;
     max-width: 370px;
     margin-top: -167px;
+    max-height: 425px;
   }
-  .kernelswap {
-    padding: 33px 15px;
-    background-color: #fff;
-    margin-top: -20px;
-    max-width: 370px;
-  }
-  .the-tultiple {
-    padding: 33px 15px;
-    background-color: #fff;
-    margin-top: 210px;
-    max-width: 370px;
-  }
-  .launchpad p {
+
+  .featute-card p {
     font-family: "Poppins";
     font-style: normal;
     font-weight: 400;
@@ -486,23 +443,13 @@ header {
     color: #59637b;
     text-align: start;
   }
-  .kernelswap p {
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 25px;
-    color: #59637b;
-    text-align: start;
+  .featute-card.card-2 {
+    transform: translateY(55px);
+    max-height: 398px;
   }
-  .the-tultiple p {
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 25px;
-    color: #59637b;
-    text-align: start;
+  .featute-card.card-3 {
+    transform: translateY(135px);
+    max-height: 425px;
   }
 }
 
@@ -775,7 +722,7 @@ header {
   }
 }
 .want {
-  padding: 40px 0;
+  padding: 60px 0;
 }
 .want-banner {
   background: url(./Image/want-start.png);
