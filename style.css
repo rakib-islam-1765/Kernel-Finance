@@ -155,7 +155,6 @@ header {
   font-size: 25px;
   line-height: 40px;
   color: #060b11;
-  margin-top: 43px;
 }
 .hero-text h1 .colors {
   background: linear-gradient(97.34deg, #fabc45 0%, #f09e00 102.87%);
@@ -256,7 +255,7 @@ header {
 }
 .card-1 {
   background-color: #fff;
-  /* padding: 32px 51px; */
+  padding: 32px 51px;
   text-align: center;
 }
 .card-1 h3 {
@@ -273,7 +272,7 @@ header {
 }
 .card-2 {
   background-color: #fff;
-  /* padding: 31px 41px; */
+  padding: 31px 41px;
   text-align: center;
   margin-top: 20px;
 }
@@ -290,7 +289,7 @@ header {
 }
 .card-3 {
   background-color: #fff;
-  /* padding: 20px 27px; */
+  padding: 20px 27px;
   text-align: center;
   margin-top: 20px;
 }
@@ -349,11 +348,13 @@ header {
   }
 }
 .features {
+  position: relative;
   background: url(./Image/feature-bg-img.svg);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   max-width: 100%;
-  height: auto;
+  height: 100%;
   padding: 56px 0;
   /* transform: rotate(-180deg); */
 }
@@ -372,6 +373,7 @@ header {
   line-height: 40px;
   text-align: center;
   color: #01162e;
+  margin: 30px 0;
 }
 
 .launchpad {
@@ -379,23 +381,23 @@ header {
   background: #ffffff;
   box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.08);
   max-width: 370px;
-  margin-top: -85px;
+  /* margin-top: -85px; */
 }
 .launchpad h2 {
-  padding: 30px 0 22px 0;
+  padding: 20px 0 22px 0;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 25px;
-  line-height: 35px;
+  font-size: 20px;
+  line-height: 30px;
   color: #01162e;
 }
 .launchpad p {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 13px;
-  line-height: 25px;
+  font-size: 12px;
+  line-height: 22px;
   color: #59637b;
   text-align: start;
 }
@@ -404,24 +406,24 @@ header {
   padding: 33px 15px;
   background: #ffffff;
   box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.08);
-  margin-top: 25px;
+  margin-top: 10px;
   max-width: 370px;
 }
 .kernelswap h2 {
-  padding: 30px 0 22px 0;
+  padding: 20px 0 22px 0;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 25px;
-  line-height: 35px;
+  font-size: 20px;
+  line-height: 30px;
   color: #01162e;
 }
 .kernelswap p {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 13px;
-  line-height: 25px;
+  font-size: 12px;
+  line-height: 22px;
   color: #59637b;
   text-align: start;
 }
@@ -430,24 +432,24 @@ header {
   padding: 33px 15px;
   background: #ffffff;
   box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.08);
-  margin-top: 30px;
+  margin-top: 10px;
   max-width: 370px;
 }
 .the-tultiple h2 {
-  padding: 30px 0 22px 0;
+  padding: 20px 0 22px 0;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 25px;
-  line-height: 35px;
+  font-size: 20px;
+  line-height: 30px;
   color: #01162e;
 }
 .the-tultiple p {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 13px;
-  line-height: 25px;
+  font-size: 12px;
+  line-height: 22px;
   color: #59637b;
   text-align: start;
 }
@@ -512,6 +514,7 @@ header {
   line-height: 40px;
   color: #01162e;
   text-align: center;
+  margin: 40px 10px 30px 10px;
 }
 .lightparer-main {
   flex-direction: column;
